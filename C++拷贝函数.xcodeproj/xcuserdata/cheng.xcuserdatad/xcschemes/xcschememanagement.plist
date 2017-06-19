@@ -14,10 +14,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>C++继承中的构造和析构函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1401A9A81EF66A1F003B1659</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>142A15961EF8176A008541ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
