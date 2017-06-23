@@ -29,6 +29,9 @@
 		148788FD1EEA82A600B0CFB3 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 148788FB1EEA82A600B0CFB3 /* Person.cpp */; };
 		14A411FB1EE14E8C00FAD113 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A411FA1EE14E8C00FAD113 /* main.cpp */; };
 		14A412011EE14EB400FAD113 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A411FF1EE14EB400FAD113 /* Circle.cpp */; };
+		14D991FB1EFD184200591245 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D991FA1EFD184200591245 /* main.cpp */; };
+		14D992011EFD1A5B00591245 /* GeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D991FF1EFD1A5B00591245 /* GeometricObject.cpp */; };
+		14D992041EFD1A6B00591245 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D992021EFD1A6B00591245 /* Circle.cpp */; };
 		14DA08801EF7626B00572B04 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DA087F1EF7626B00572B04 /* main.cpp */; };
 		14DA08861EF762D800572B04 /* GeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DA08841EF762D800572B04 /* GeometricObject.cpp */; };
 		14DA08891EF762E800572B04 /* DerivedCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DA08871EF762E800572B04 /* DerivedCircle.cpp */; };
@@ -153,6 +156,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14D991F61EFD184200591245 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14DA087B1EF7626B00572B04 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +228,12 @@
 		14D991F11EFD163300591245 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14D991F21EFD163300591245 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		14D991F31EFD163300591245 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		14D991F81EFD184200591245 /* C++函数重定义和重载 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++函数重定义和重载"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D991FA1EFD184200591245 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14D991FF1EFD1A5B00591245 /* GeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricObject.cpp; sourceTree = "<group>"; };
+		14D992001EFD1A5B00591245 /* GeometricObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GeometricObject.hpp; sourceTree = "<group>"; };
+		14D992021EFD1A6B00591245 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		14D992031EFD1A6B00591245 /* Circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
 		14DA087D1EF7626B00572B04 /* C++中的继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++中的继承"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DA087F1EF7626B00572B04 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14DA08841EF762D800572B04 /* GeometricObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricObject.cpp; sourceTree = "<group>"; };
@@ -318,6 +336,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14D991F51EFD184200591245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14DA087A1EF7626B00572B04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +369,7 @@
 				148788F21EEA80E600B0CFB3 /* C++中的拷贝构造函数 */,
 				14D991EE1EFD163300591245 /* C++拷贝函数 */,
 				14DA087E1EF7626B00572B04 /* C++中的继承 */,
+				14D991F91EFD184200591245 /* C++函数重定义和重载 */,
 				14257C6C1EDFE73100762902 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -365,6 +391,7 @@
 				148788E61EEA53B700B0CFB3 /* C++析构函数,友元函数 */,
 				148788F11EEA80E600B0CFB3 /* C++中的拷贝构造函数 */,
 				14DA087D1EF7626B00572B04 /* C++中的继承 */,
+				14D991F81EFD184200591245 /* C++函数重定义和重载 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -489,6 +516,18 @@
 				14D991F31EFD163300591245 /* Person.hpp */,
 			);
 			path = "C++拷贝函数";
+			sourceTree = "<group>";
+		};
+		14D991F91EFD184200591245 /* C++函数重定义和重载 */ = {
+			isa = PBXGroup;
+			children = (
+				14D991FA1EFD184200591245 /* main.cpp */,
+				14D991FF1EFD1A5B00591245 /* GeometricObject.cpp */,
+				14D992001EFD1A5B00591245 /* GeometricObject.hpp */,
+				14D992021EFD1A6B00591245 /* Circle.cpp */,
+				14D992031EFD1A6B00591245 /* Circle.hpp */,
+			);
+			path = "C++函数重定义和重载";
 			sourceTree = "<group>";
 		};
 		14DA087E1EF7626B00572B04 /* C++中的继承 */ = {
@@ -729,6 +768,23 @@
 			productReference = 14A411F81EE14E8C00FAD113 /* C++对象传递 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14D991F71EFD184200591245 /* C++函数重定义和重载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D991FE1EFD184200591245 /* Build configuration list for PBXNativeTarget "C++函数重定义和重载" */;
+			buildPhases = (
+				14D991F41EFD184200591245 /* Sources */,
+				14D991F51EFD184200591245 /* Frameworks */,
+				14D991F61EFD184200591245 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++函数重定义和重载";
+			productName = "C++函数重定义和重载";
+			productReference = 14D991F81EFD184200591245 /* C++函数重定义和重载 */;
+			productType = "com.apple.product-type.tool";
+		};
 		14DA087C1EF7626B00572B04 /* C++中的继承 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14DA08831EF7626B00572B04 /* Build configuration list for PBXNativeTarget "C++中的继承" */;
@@ -801,6 +857,10 @@
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
 					};
+					14D991F71EFD184200591245 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					14DA087C1EF7626B00572B04 = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -832,6 +892,7 @@
 				148788E51EEA53B700B0CFB3 /* C++析构函数,友元函数 */,
 				148788F01EEA80E600B0CFB3 /* C++中的拷贝构造函数 */,
 				14DA087C1EF7626B00572B04 /* C++中的继承 */,
+				14D991F71EFD184200591245 /* C++函数重定义和重载 */,
 			);
 		};
 /* End PBXProject section */
@@ -947,6 +1008,16 @@
 			files = (
 				14A411FB1EE14E8C00FAD113 /* main.cpp in Sources */,
 				14A412011EE14EB400FAD113 /* Circle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D991F41EFD184200591245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D992011EFD1A5B00591245 /* GeometricObject.cpp in Sources */,
+				14D992041EFD1A6B00591245 /* Circle.cpp in Sources */,
+				14D991FB1EFD184200591245 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1342,6 +1413,20 @@
 			};
 			name = Release;
 		};
+		14D991FC1EFD184200591245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14D991FD1EFD184200591245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14DA08811EF7626B00572B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1498,6 +1583,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		14D991FE1EFD184200591245 /* Build configuration list for PBXNativeTarget "C++函数重定义和重载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D991FC1EFD184200591245 /* Debug */,
+				14D991FD1EFD184200591245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		14DA08831EF7626B00572B04 /* Build configuration list for PBXNativeTarget "C++中的继承" */ = {
 			isa = XCConfigurationList;

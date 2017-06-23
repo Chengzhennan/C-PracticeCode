@@ -21,6 +21,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>C++函数重定义和重载.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>C++分离文件.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -144,6 +149,11 @@
 			<true/>
 		</dict>
 		<key>14A411F71EE14E8C00FAD113</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14D991F71EFD184200591245</key>
 		<dict>
 			<key>primary</key>
 			<true/>
