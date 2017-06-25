@@ -11,6 +11,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>C++中的Vector类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>C++中的拷贝构造函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -45,12 +50,22 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>C++多态和虚函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>C++对象传递.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>C++拷贝函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
 		</dict>
 		<key>C++指针和成员.xcscheme</key>
 		<dict>
@@ -77,6 +92,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>C++继承中的构造和析构函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>C++静态实例变量和静态方法.xcscheme</key>
 		<dict>
@@ -159,6 +179,26 @@
 			<true/>
 		</dict>
 		<key>14DA087C1EF7626B00572B04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14E6D16A1EFF7BFB00B32C0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14FC71441EFF608C009CF6BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14FC71511EFF60DF009CF6BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14FC715E1EFF72E0009CF6BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
