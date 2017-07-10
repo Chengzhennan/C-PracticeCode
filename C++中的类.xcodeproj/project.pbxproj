@@ -14,7 +14,14 @@
 		14257C901EE000FA00762902 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14257C8E1EE000FA00762902 /* Circle.cpp */; };
 		14257C981EE0141D00762902 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14257C971EE0141D00762902 /* main.cpp */; };
 		14257C9E1EE0151200762902 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14257C9C1EE0151200762902 /* Circle.cpp */; };
+		142DD9D41F1322A800C5620D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 142DD9D31F1322A800C5620D /* main.c */; };
 		143012DB1F0DD008006A5EE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143012DA1F0DD008006A5EE7 /* main.cpp */; };
+		144B48051F0F1ECB00A613E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B48041F0F1ECB00A613E6 /* main.cpp */; };
+		144B48101F0F26F600A613E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B480F1F0F26F600A613E6 /* main.cpp */; };
+		144B481B1F0F360600A613E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B481A1F0F360600A613E6 /* main.cpp */; };
+		144B48261F0F679900A613E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B48251F0F679900A613E6 /* main.cpp */; };
+		144B48311F0F71A000A613E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B48301F0F71A000A613E6 /* main.cpp */; };
+		144B483A1F0F773E00A613E6 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B48381F0F773E00A613E6 /* Student.cpp */; };
 		1486B1801EE4F68B00EFAF59 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1486B17F1EE4F68B00EFAF59 /* main.cpp */; };
 		1486B1861EE4F6B400EFAF59 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1486B1841EE4F6B400EFAF59 /* Circle.cpp */; };
 		148725B31EE7D27B008FFE85 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 148725A81EE7CEF0008FFE85 /* main.cpp */; };
@@ -85,7 +92,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		142DD9CF1F1322A800C5620D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		143012D61F0DD008006A5EE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144B48001F0F1ECB00A613E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144B480B1F0F26F600A613E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144B48161F0F360600A613E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144B48211F0F679900A613E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144B482C1F0F71A000A613E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -273,8 +334,22 @@
 		14257C971EE0141D00762902 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14257C9C1EE0151200762902 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 		14257C9D1EE0151200762902 /* Circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		142DD9D11F1322A800C5620D /* C++有理数类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++有理数类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142DD9D31F1322A800C5620D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		143012D81F0DD008006A5EE7 /* C++copy文件 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++copy文件"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143012DA1F0DD008006A5EE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B48021F0F1ECB00A613E6 /* C++文件打开模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++文件打开模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144B48041F0F1ECB00A613E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B480D1F0F26F600A613E6 /* C++文件打开模式2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++文件打开模式2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144B480F1F0F26F600A613E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B48181F0F360600A613E6 /* C++二进制读写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++二进制读写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144B481A1F0F360600A613E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B48231F0F679900A613E6 /* C/C++char类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C/C++char类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144B48251F0F679900A613E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B482E1F0F71A000A613E6 /* C++数组和对象的二进制读写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++数组和对象的二进制读写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144B48301F0F71A000A613E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144B48381F0F773E00A613E6 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		144B48391F0F773E00A613E6 /* Student.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
 		1486B17D1EE4F68B00EFAF59 /* C++数组对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++数组对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1486B17F1EE4F68B00EFAF59 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1486B1841EE4F6B400EFAF59 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
@@ -370,7 +445,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		142DD9CE1F1322A800C5620D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		143012D51F0DD008006A5EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B47FF1F0F1ECB00A613E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B480A1F0F26F600A613E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B48151F0F360600A613E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B48201F0F679900A613E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B482B1F0F71A000A613E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,6 +647,12 @@
 				14CEF80B1F08AE8E009194E6 /* C++读取文件 */,
 				14ED1E591F0C9118005D565E /* C++格式化输出 */,
 				143012D91F0DD008006A5EE7 /* C++copy文件 */,
+				144B48031F0F1ECB00A613E6 /* C++文件打开模式 */,
+				144B480E1F0F26F600A613E6 /* C++文件打开模式(流状态函数) */,
+				144B48191F0F360600A613E6 /* C++二进制读写 */,
+				144B48241F0F679900A613E6 /* C/C++char类型 */,
+				144B482F1F0F71A000A613E6 /* C++数组和对象的二进制读写 */,
+				142DD9D21F1322A800C5620D /* C++有理数类 */,
 				14257C6C1EDFE73100762902 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -560,6 +683,12 @@
 				14CEF80A1F08AE8E009194E6 /* C++读取文件 */,
 				14ED1E581F0C9118005D565E /* C++格式化输出 */,
 				143012D81F0DD008006A5EE7 /* C++copy文件 */,
+				144B48021F0F1ECB00A613E6 /* C++文件打开模式 */,
+				144B480D1F0F26F600A613E6 /* C++文件打开模式2 */,
+				144B48181F0F360600A613E6 /* C++二进制读写 */,
+				144B48231F0F679900A613E6 /* C/C++char类型 */,
+				144B482E1F0F71A000A613E6 /* C++数组和对象的二进制读写 */,
+				142DD9D11F1322A800C5620D /* C++有理数类 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -602,12 +731,63 @@
 			path = "C++数据域封装";
 			sourceTree = "<group>";
 		};
+		142DD9D21F1322A800C5620D /* C++有理数类 */ = {
+			isa = PBXGroup;
+			children = (
+				142DD9D31F1322A800C5620D /* main.c */,
+			);
+			path = "C++有理数类";
+			sourceTree = "<group>";
+		};
 		143012D91F0DD008006A5EE7 /* C++copy文件 */ = {
 			isa = PBXGroup;
 			children = (
 				143012DA1F0DD008006A5EE7 /* main.cpp */,
 			);
 			path = "C++copy文件";
+			sourceTree = "<group>";
+		};
+		144B48031F0F1ECB00A613E6 /* C++文件打开模式 */ = {
+			isa = PBXGroup;
+			children = (
+				144B48041F0F1ECB00A613E6 /* main.cpp */,
+			);
+			path = "C++文件打开模式";
+			sourceTree = "<group>";
+		};
+		144B480E1F0F26F600A613E6 /* C++文件打开模式(流状态函数) */ = {
+			isa = PBXGroup;
+			children = (
+				144B480F1F0F26F600A613E6 /* main.cpp */,
+			);
+			name = "C++文件打开模式(流状态函数)";
+			path = "C++文件打开模式2";
+			sourceTree = "<group>";
+		};
+		144B48191F0F360600A613E6 /* C++二进制读写 */ = {
+			isa = PBXGroup;
+			children = (
+				144B481A1F0F360600A613E6 /* main.cpp */,
+			);
+			path = "C++二进制读写";
+			sourceTree = "<group>";
+		};
+		144B48241F0F679900A613E6 /* C/C++char类型 */ = {
+			isa = PBXGroup;
+			children = (
+				144B48251F0F679900A613E6 /* main.cpp */,
+			);
+			path = "C/C++char类型";
+			sourceTree = "<group>";
+		};
+		144B482F1F0F71A000A613E6 /* C++数组和对象的二进制读写 */ = {
+			isa = PBXGroup;
+			children = (
+				144B48301F0F71A000A613E6 /* main.cpp */,
+				144B48381F0F773E00A613E6 /* Student.cpp */,
+				144B48391F0F773E00A613E6 /* Student.hpp */,
+			);
+			path = "C++数组和对象的二进制读写";
 			sourceTree = "<group>";
 		};
 		1486B17E1EE4F68B00EFAF59 /* C++数组对象 */ = {
@@ -839,6 +1019,23 @@
 			productReference = 14257C951EE0141D00762902 /* C++数据域封装 */;
 			productType = "com.apple.product-type.tool";
 		};
+		142DD9D01F1322A800C5620D /* C++有理数类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142DD9D71F1322A800C5620D /* Build configuration list for PBXNativeTarget "C++有理数类" */;
+			buildPhases = (
+				142DD9CD1F1322A800C5620D /* Sources */,
+				142DD9CE1F1322A800C5620D /* Frameworks */,
+				142DD9CF1F1322A800C5620D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++有理数类";
+			productName = "C++有理数类";
+			productReference = 142DD9D11F1322A800C5620D /* C++有理数类 */;
+			productType = "com.apple.product-type.tool";
+		};
 		143012D71F0DD008006A5EE7 /* C++copy文件 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143012DE1F0DD008006A5EE7 /* Build configuration list for PBXNativeTarget "C++copy文件" */;
@@ -854,6 +1051,91 @@
 			name = "C++copy文件";
 			productName = "C++copy文件";
 			productReference = 143012D81F0DD008006A5EE7 /* C++copy文件 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144B48011F0F1ECB00A613E6 /* C++文件打开模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144B48081F0F1ECB00A613E6 /* Build configuration list for PBXNativeTarget "C++文件打开模式" */;
+			buildPhases = (
+				144B47FE1F0F1ECB00A613E6 /* Sources */,
+				144B47FF1F0F1ECB00A613E6 /* Frameworks */,
+				144B48001F0F1ECB00A613E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++文件打开模式";
+			productName = "C++文件打开模式";
+			productReference = 144B48021F0F1ECB00A613E6 /* C++文件打开模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144B480C1F0F26F600A613E6 /* C++文件打开模式2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144B48111F0F26F600A613E6 /* Build configuration list for PBXNativeTarget "C++文件打开模式2" */;
+			buildPhases = (
+				144B48091F0F26F600A613E6 /* Sources */,
+				144B480A1F0F26F600A613E6 /* Frameworks */,
+				144B480B1F0F26F600A613E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++文件打开模式2";
+			productName = "C++文件打开模式2";
+			productReference = 144B480D1F0F26F600A613E6 /* C++文件打开模式2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144B48171F0F360600A613E6 /* C++二进制读写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144B481C1F0F360600A613E6 /* Build configuration list for PBXNativeTarget "C++二进制读写" */;
+			buildPhases = (
+				144B48141F0F360600A613E6 /* Sources */,
+				144B48151F0F360600A613E6 /* Frameworks */,
+				144B48161F0F360600A613E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++二进制读写";
+			productName = "C++二进制读写";
+			productReference = 144B48181F0F360600A613E6 /* C++二进制读写 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144B48221F0F679900A613E6 /* C/C++char类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144B48291F0F679900A613E6 /* Build configuration list for PBXNativeTarget "C/C++char类型" */;
+			buildPhases = (
+				144B481F1F0F679900A613E6 /* Sources */,
+				144B48201F0F679900A613E6 /* Frameworks */,
+				144B48211F0F679900A613E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C/C++char类型";
+			productName = "C/C++char类型";
+			productReference = 144B48231F0F679900A613E6 /* C/C++char类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144B482D1F0F71A000A613E6 /* C++数组和对象的二进制读写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144B48321F0F71A000A613E6 /* Build configuration list for PBXNativeTarget "C++数组和对象的二进制读写" */;
+			buildPhases = (
+				144B482A1F0F71A000A613E6 /* Sources */,
+				144B482B1F0F71A000A613E6 /* Frameworks */,
+				144B482C1F0F71A000A613E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++数组和对象的二进制读写";
+			productName = "C++数组和对象的二进制读写";
+			productReference = 144B482E1F0F71A000A613E6 /* C++数组和对象的二进制读写 */;
 			productType = "com.apple.product-type.tool";
 		};
 		1486B17C1EE4F68B00EFAF59 /* C++数组对象 */ = {
@@ -1187,7 +1469,31 @@
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
 					};
+					142DD9D01F1322A800C5620D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					143012D71F0DD008006A5EE7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144B48011F0F1ECB00A613E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144B480C1F0F26F600A613E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144B48171F0F360600A613E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144B48221F0F679900A613E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144B482D1F0F71A000A613E6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -1290,6 +1596,12 @@
 				14CEF8091F08AE8E009194E6 /* C++读取文件 */,
 				14ED1E571F0C9118005D565E /* C++格式化输出 */,
 				143012D71F0DD008006A5EE7 /* C++copy文件 */,
+				144B48011F0F1ECB00A613E6 /* C++文件打开模式 */,
+				144B480C1F0F26F600A613E6 /* C++文件打开模式2 */,
+				144B48171F0F360600A613E6 /* C++二进制读写 */,
+				144B48221F0F679900A613E6 /* C/C++char类型 */,
+				144B482D1F0F71A000A613E6 /* C++数组和对象的二进制读写 */,
+				142DD9D01F1322A800C5620D /* C++有理数类 */,
 			);
 		};
 /* End PBXProject section */
@@ -1330,11 +1642,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		142DD9CD1F1322A800C5620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142DD9D41F1322A800C5620D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		143012D41F0DD008006A5EE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				143012DB1F0DD008006A5EE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B47FE1F0F1ECB00A613E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B48051F0F1ECB00A613E6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B48091F0F26F600A613E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B48101F0F26F600A613E6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B48141F0F360600A613E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B481B1F0F360600A613E6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B481F1F0F679900A613E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B48261F0F679900A613E6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144B482A1F0F71A000A613E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144B48311F0F71A000A613E6 /* main.cpp in Sources */,
+				144B483A1F0F773E00A613E6 /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1643,6 +2004,20 @@
 			};
 			name = Release;
 		};
+		142DD9D51F1322A800C5620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142DD9D61F1322A800C5620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		143012DC1F0DD008006A5EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1651,6 +2026,76 @@
 			name = Debug;
 		};
 		143012DD1F0DD008006A5EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144B48061F0F1ECB00A613E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144B48071F0F1ECB00A613E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144B48121F0F26F600A613E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144B48131F0F26F600A613E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144B481D1F0F360600A613E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144B481E1F0F360600A613E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144B48271F0F679900A613E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144B48281F0F679900A613E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144B48331F0F71A000A613E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144B48341F0F71A000A613E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2132,6 +2577,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		142DD9D71F1322A800C5620D /* Build configuration list for PBXNativeTarget "C++有理数类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142DD9D51F1322A800C5620D /* Debug */,
+				142DD9D61F1322A800C5620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		143012DE1F0DD008006A5EE7 /* Build configuration list for PBXNativeTarget "C++copy文件" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2139,6 +2592,52 @@
 				143012DD1F0DD008006A5EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144B48081F0F1ECB00A613E6 /* Build configuration list for PBXNativeTarget "C++文件打开模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144B48061F0F1ECB00A613E6 /* Debug */,
+				144B48071F0F1ECB00A613E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144B48111F0F26F600A613E6 /* Build configuration list for PBXNativeTarget "C++文件打开模式2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144B48121F0F26F600A613E6 /* Debug */,
+				144B48131F0F26F600A613E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144B481C1F0F360600A613E6 /* Build configuration list for PBXNativeTarget "C++二进制读写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144B481D1F0F360600A613E6 /* Debug */,
+				144B481E1F0F360600A613E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144B48291F0F679900A613E6 /* Build configuration list for PBXNativeTarget "C/C++char类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144B48271F0F679900A613E6 /* Debug */,
+				144B48281F0F679900A613E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144B48321F0F71A000A613E6 /* Build configuration list for PBXNativeTarget "C++数组和对象的二进制读写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144B48331F0F71A000A613E6 /* Debug */,
+				144B48341F0F71A000A613E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1486B1831EE4F68B00EFAF59 /* Build configuration list for PBXNativeTarget "C++数组对象" */ = {
 			isa = XCConfigurationList;

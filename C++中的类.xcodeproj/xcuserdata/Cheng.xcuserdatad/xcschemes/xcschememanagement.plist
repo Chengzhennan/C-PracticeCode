@@ -36,6 +36,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>C++二进制读写.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>C++函数重定义和重载.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -91,12 +96,32 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>C++数组和对象的二进制读写.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>C++数组对象.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>C++文件打开模式.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>C++文件打开模式2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>C++有理数类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
 		</dict>
 		<key>C++析构函数,友元函数.xcscheme</key>
 		<dict>
@@ -125,6 +150,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>C/C++char类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -148,7 +178,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>142DD9D01F1322A800C5620D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>143012D71F0DD008006A5EE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144B48011F0F1ECB00A613E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144B480C1F0F26F600A613E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144B48171F0F360600A613E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144B48221F0F679900A613E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>144B482D1F0F71A000A613E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
