@@ -21,6 +21,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>C++中的函数模板.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>C++中的拷贝构造函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -132,6 +137,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>18</integer>
+		</dict>
+		<key>C++泛型排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>C++继承中的构造和析构函数.xcscheme</key>
 		<dict>
