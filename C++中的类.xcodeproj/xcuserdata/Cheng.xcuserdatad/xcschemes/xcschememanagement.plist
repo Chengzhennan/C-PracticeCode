@@ -143,6 +143,11 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>C++类模板.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>C++继承中的构造和析构函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
