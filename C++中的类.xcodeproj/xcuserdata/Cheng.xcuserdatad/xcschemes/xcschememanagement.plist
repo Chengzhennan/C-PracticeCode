@@ -51,6 +51,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>C++分支文件.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>C++分离文件.xcscheme</key>
 		<dict>
 			<key>isShown</key>
